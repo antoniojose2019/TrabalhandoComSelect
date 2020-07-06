@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Formlário para gerar o curriculo"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1- Quais ferramentas voce tem conhecimento na area de tecnologia? Você pode marcar mais de uma opção se for o caso. "
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_sql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQL"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_html"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTML"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kotlin"
+        />
+
+
+   <View
+       android:id="@+id/vew_linha"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/bt_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+
+</LinearLayout>
